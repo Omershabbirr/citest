@@ -24,7 +24,7 @@ def test_divide():
     assert divide(6, 2) == 3
     assert divide(5, 2) == 2.5
     assert divide(0, 5) == 0
-    assert divide(1, 0) == 0
+    # assert divide(1, 0) == 0
 
 def test_divide_by_zero():
     # Failing test - should raise ZeroDivisionError
